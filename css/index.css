@@ -1,0 +1,225 @@
+html {
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+#content {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    grid-column-gap: 16px;
+    grid-row-gap: 16px;
+    max-width: 100%;
+    padding-top: 85px;
+}
+
+#navbar-pinterest {
+    display: inline-flex;
+    background-color: white;
+    align-items: center;
+    justify-content: center;
+    height: 80px;
+    width: 100%;
+    position: fixed;
+    z-index: 10;
+}
+
+.boton {
+    height: 65%;
+    display: flex;
+    align-items: center;
+    border-radius: 24px;
+    justify-content: center;
+    font-size: 16px;
+    padding: 0 16px;
+    margin: 0 4px;
+    cursor: pointer;
+}
+
+.boton.active {
+    background-color: black;
+    color: white;
+}
+
+.boton.card-image {
+    height: 50px;
+    margin: 16px 8px;
+    border-color: transparent;
+}
+
+.boton.rojo {
+    background-color: red;
+    color: white;
+    border-color: transparent;
+}
+
+.boton.rojo:hover {
+    background-color: darkred;
+    border-color: transparent;
+}
+
+.boton:hover:not(.active)  {
+    color: black;
+    background-color: lightgray;
+}
+
+.finder {
+    height: 50%;
+    border-radius: 24px;
+    font-size: 16px;
+    padding: 0 12px;
+    border-color: transparent;
+    width: 65%;
+    display: flex;
+    align-self: center;
+    background-color: lightgray;
+}
+
+.finder::placeholder {
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+}
+
+#pinterest-icon {
+    width: 24px;
+    padding-top: 5px;
+}
+
+.icono {
+    display: flex;
+    width: 48px;
+    cursor: pointer;
+    align-items: center;
+    justify-content: center;
+    height: 48px;
+    margin: 0 8px;
+}
+
+.icono:hover {
+    border-radius: 100px;
+    background-color: lightgray;
+}
+
+.imagen {
+    width: 280px;
+    height: 360px;
+    background: white;
+    position: relative;
+    display: flex;
+    align-items: flex-end;
+    margin: 0 auto;
+}
+
+.imagen.peq {
+    height: 200px;
+}
+
+.imagen.med {
+    height: 360px;
+}
+
+.imagen.grande {
+    height: 450px;
+}
+
+.imagen-galeria {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 40px;
+}
+
+.card-image {
+    object-fit: cover;
+    width: auto;
+}
+
+.card-image.peq {
+    height: 360px;
+}
+
+.card-image.med {
+    height: 530px;
+}
+
+.card-image.grande {
+    height: 640px;
+}
+
+.hover-info {
+    position: absolute;
+    display: flex;
+    flex-flow: column;
+    align-items: flex-end;
+    justify-content: space-between;
+    opacity: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.5);
+}
+
+.hover-info:hover {
+    opacity: 1;
+    border-radius: 40px;
+}
+
+.hover-info .info-botones {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+.extra-info {
+    display: block;
+}
+
+.imagen-perfil {
+    width: 30px;
+    padding: 0 8px;
+}
+
+.imagen-reaccion {
+    width: 15px;
+    margin: 0 2px;
+}
+
+.perfil-info {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding-left: 24px;
+}
+
+.reacciones {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 0 24px;
+}
+
+.reacciones p {
+    font-size: 12px;
+    margin: 0 8px;
+}
+
+@media only screen and (min-width: 480px) {
+    #content {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    #content {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+    #content {
+        grid-template-columns: repeat(5, 1fr);
+    }
+}
