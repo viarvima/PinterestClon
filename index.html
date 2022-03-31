@@ -1,800 +1,917 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./css/index.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400&display=swap" rel="stylesheet">
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/index.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400&display=swap" rel="stylesheet" />
     <title>Pinteres Clone | Vianey Villegas</title>
 </head>
 <body>
-    <header>
-        <nav id="navbar-pinterest">
-            <div class="icono">
-                <a href="https://www.pinterest.com">
-                    <img id="pinterest-icon" src="./img/iconos/pinterest-icono.png" alt="pinterest-icono" />
-                </a>
-            </div>
-            <div class="boton active">
-                <p>Inicio</p>
-            </div>
-            <div class="boton">
-                <p>Hoy</p>
-            </div>
-            <input class="finder" type="text" placeholder="🔎   Buscar"/>
-            <div class="icono">
-                <img src="./img/iconos/notificacion.png" alt="pinterest-icono" width="24px"/>
-            </div>
-            <div class="icono">
-                <img src="./img/iconos/mensaje.png" alt="pinterest-mensaje" width="24px"/>
-            </div>
-            <div class="icono">
-                <img src="./img/iconos/usuario.png" alt="pinterest-usuario" width="24px"/>
-            </div>
-            <div class="icono">
-                <img src="./img/iconos/flecha-abajo.png" alt="pinterest-flecha" width="24px"/>
-            </div>
-        </nav>
-    </header>
-    <main>
-<!-- Grid Layout -->
-        <div id="content">
-            <div class="card-image">
-                <div class="imagen grande">
-                    <img class="imagen-galeria" src="./img/galeria/gato1.jpeg" alt="" />
-                    <div class="hover-info">
-                        <button class="boton card-image rojo">Guardar</button>
-                        <div class="info-botones">
-                            <button class="boton card-image">Descargar</button>
-                            <button class="boton card-image">Mas info.</button>
-                        </div>
-                    </div>
-                </div>
-                <div class="extra-info">
-                    <div class="perfil-info">
-                        <img class="imagen-perfil" src="./img/iconos/usuario.png" alt="usuario" />
-                        <p>Vianey Villegas</p>
-                    </div>
-                    <div class="reacciones">
-                        <img class="imagen-reaccion" src="./img/iconos/feliz.png" alt="feliz" />
-                        <img class="imagen-reaccion" src="./img/iconos/encantar.png" alt="encantar" />
-                        <img class="imagen-reaccion" src="./img/iconos/sorprendido.png" alt="sorprendido" />
-                        <p>287</p>
+<header>
+    <nav id="navbar-pinterest">
+        <div class="icono">
+            <a href="https://www.pinterest.com">
+                <img id="pinterest-icon" src="./img/iconos/pinterest-icono.png" alt="pinterest-icono" />
+            </a>
+        </div>
+        <div class="boton active">
+            <p>Inicio</p>
+        </div>
+        <div class="boton">
+            <p>Hoy</p>
+        </div>
+        <input class="finder" type="text" placeholder="🔎   Buscar" />
+        <div class="icono">
+            <img src="./img/iconos/notificacion.png" alt="pinterest-icono" width="24px" />
+        </div>
+        <div class="icono">
+            <img src="./img/iconos/mensaje.png" alt="pinterest-mensaje" width="24px" />
+        </div>
+        <div class="icono">
+            <img src="./img/iconos/usuario.png" alt="pinterest-usuario" width="24px" />
+        </div>
+        <div class="icono">
+            <img src="./img/iconos/flecha-abajo.png" alt="pinterest-flecha" width="24px" />
+        </div>
+    </nav>
+</header>
+<main>
+    <!-- Grid Layout -->
+    <div id="content">
+        <div class="card-image">
+            <div class="imagen grande">
+                <img class="imagen-galeria" src="./img/galeria/gato1.jpeg" alt="" />
+                <div class="hover-info">
+                    <button class="boton card-image rojo">Guardar</button>
+                    <div class="info-botones">
+                        <button class="boton card-image">
+                            <img src="./img/iconos/descarga.png" alt="descarga" width="22px" />
+                        </button>
+                        <button class="boton card-image">
+                            <img src="./img/iconos/compartir.png" alt="compartir" width="22px" />
+                        </button>
                     </div>
                 </div>
             </div>
-
-            <div class="card-image">
-                <div class="imagen med">
-                    <img class="imagen-galeria" src="./img/galeria/gato2.jpeg" alt="" />
-                    <div class="hover-info">
-                        <button class="boton card-image rojo">Guardar</button>
-                        <div class="info-botones">
-                            <button class="boton card-image">Descargar</button>
-                            <button class="boton card-image">Mas info.</button>
-                        </div>
-                    </div>
+            <div class="extra-info">
+                <div class="perfil-info">
+                    <img class="imagen-perfil" src="./img/iconos/usuario.png" alt="usuario" />
+                    <p>Vianey Villegas</p>
                 </div>
-                <div class="extra-info">
-                    <div class="perfil-info">
-                        <img class="imagen-perfil" src="./img/iconos/usuario.png" alt="usuario" />
-                        <p>Vianey Villegas</p>
-                    </div>
-                    <div class="reacciones">
-                        <img class="imagen-reaccion" src="./img/iconos/feliz.png" alt="feliz" />
-                        <img class="imagen-reaccion" src="./img/iconos/encantar.png" alt="encantar" />
-                        <img class="imagen-reaccion" src="./img/iconos/sorprendido.png" alt="sorprendido" />
-                        <p>287</p>
-                    </div>
-                </div>
-            </div>
-
-            <div class="card-image">
-                <div class="imagen peq">
-                    <img class="imagen-galeria" src="./img/galeria/gato3.jpeg" alt="" />
-                    <div class="hover-info">
-                        <button class="boton card-image rojo">Guardar</button>
-                        <div class="info-botones">
-                            <button class="boton card-image">Descargar</button>
-                            <button class="boton card-image">Mas info.</button>
-                        </div>
-                    </div>
-                </div>
-                <div class="extra-info">
-                    <div class="perfil-info">
-                        <img class="imagen-perfil" src="./img/iconos/usuario.png" alt="usuario" />
-                        <p>Vianey Villegas</p>
-                    </div>
-                    <div class="reacciones">
-                        <img class="imagen-reaccion" src="./img/iconos/feliz.png" alt="feliz" />
-                        <img class="imagen-reaccion" src="./img/iconos/encantar.png" alt="encantar" />
-                        <img class="imagen-reaccion" src="./img/iconos/sorprendido.png" alt="sorprendido" />
-                        <p>287</p>
-                    </div>
-                </div>
-            </div>
-
-            <div class="card-image">
-                <div class="imagen med">
-                    <img class="imagen-galeria" src="./img/galeria/gato4.jpeg" alt="" />
-                    <div class="hover-info">
-                        <button class="boton card-image rojo">Guardar</button>
-                        <div class="info-botones">
-                            <button class="boton card-image">Descargar</button>
-                            <button class="boton card-image">Mas info.</button>
-                        </div>
-                    </div>
-                </div>
-                <div class="extra-info">
-                    <div class="perfil-info">
-                        <img class="imagen-perfil" src="./img/iconos/usuario.png" alt="usuario" />
-                        <p>Vianey Villegas</p>
-                    </div>
-                    <div class="reacciones">
-                        <img class="imagen-reaccion" src="./img/iconos/feliz.png" alt="feliz" />
-                        <img class="imagen-reaccion" src="./img/iconos/encantar.png" alt="encantar" />
-                        <img class="imagen-reaccion" src="./img/iconos/sorprendido.png" alt="sorprendido" />
-                        <p>287</p>
-                    </div>
-                </div>
-            </div>
-
-            <div class="card-image">
-                <div class="imagen grande">
-                    <img class="imagen-galeria" src="./img/galeria/gato5.jpeg" alt="" />
-                    <div class="hover-info">
-                        <button class="boton card-image rojo">Guardar</button>
-                        <div class="info-botones">
-                            <button class="boton card-image">Descargar</button>
-                            <button class="boton card-image">Mas info.</button>
-                        </div>
-                    </div>
-                </div>
-                <div class="extra-info">
-                    <div class="perfil-info">
-                        <img class="imagen-perfil" src="./img/iconos/usuario.png" alt="usuario" />
-                        <p>Vianey Villegas</p>
-                    </div>
-                    <div class="reacciones">
-                        <img class="imagen-reaccion" src="./img/iconos/feliz.png" alt="feliz" />
-                        <img class="imagen-reaccion" src="./img/iconos/encantar.png" alt="encantar" />
-                        <img class="imagen-reaccion" src="./img/iconos/sorprendido.png" alt="sorprendido" />
-                        <p>287</p>
-                    </div>
-                </div>
-            </div>
-
-            <div class="card-image">
-                <div class="imagen peq">
-                    <img class="imagen-galeria" src="./img/galeria/gato6.jpeg" alt="" />
-                    <div class="hover-info">
-                        <button class="boton card-image rojo">Guardar</button>
-                        <div class="info-botones">
-                            <button class="boton card-image">Descargar</button>
-                            <button class="boton card-image">Mas info.</button>
-                        </div>
-                    </div>
-                </div>
-                <div class="extra-info">
-                    <div class="perfil-info">
-                        <img class="imagen-perfil" src="./img/iconos/usuario.png" alt="usuario" />
-                        <p>Vianey Villegas</p>
-                    </div>
-                    <div class="reacciones">
-                        <img class="imagen-reaccion" src="./img/iconos/feliz.png" alt="feliz" />
-                        <img class="imagen-reaccion" src="./img/iconos/encantar.png" alt="encantar" />
-                        <img class="imagen-reaccion" src="./img/iconos/sorprendido.png" alt="sorprendido" />
-                        <p>287</p>
-                    </div>
-                </div>
-            </div>
-
-            <div class="card-image">
-                <div class="imagen grande">
-                    <img class="imagen-galeria" src="./img/galeria/gato7.gif" alt="" />
-                    <div class="hover-info">
-                        <button class="boton card-image rojo">Guardar</button>
-                        <div class="info-botones">
-                            <button class="boton card-image">Descargar</button>
-                            <button class="boton card-image">Mas info.</button>
-                        </div>
-                    </div>
-                </div>
-                <div class="extra-info">
-                    <div class="perfil-info">
-                        <img class="imagen-perfil" src="./img/iconos/usuario.png" alt="usuario" />
-                        <p>Vianey Villegas</p>
-                    </div>
-                    <div class="reacciones">
-                        <img class="imagen-reaccion" src="./img/iconos/feliz.png" alt="feliz" />
-                        <img class="imagen-reaccion" src="./img/iconos/encantar.png" alt="encantar" />
-                        <img class="imagen-reaccion" src="./img/iconos/sorprendido.png" alt="sorprendido" />
-                        <p>287</p>
-                    </div>
-                </div>
-            </div>
-
-            <div class="card-image">
-                <div class="imagen med">
-                    <img class="imagen-galeria" src="./img/galeria/gato8.jpeg" alt="" />
-                    <div class="hover-info">
-                        <button class="boton card-image rojo">Guardar</button>
-                        <div class="info-botones">
-                            <button class="boton card-image">Descargar</button>
-                            <button class="boton card-image">Mas info.</button>
-                        </div>
-                    </div>
-                </div>
-                <div class="extra-info">
-                    <div class="perfil-info">
-                        <img class="imagen-perfil" src="./img/iconos/usuario.png" alt="usuario" />
-                        <p>Vianey Villegas</p>
-                    </div>
-                    <div class="reacciones">
-                        <img class="imagen-reaccion" src="./img/iconos/feliz.png" alt="feliz" />
-                        <img class="imagen-reaccion" src="./img/iconos/encantar.png" alt="encantar" />
-                        <img class="imagen-reaccion" src="./img/iconos/sorprendido.png" alt="sorprendido" />
-                        <p>287</p>
-                    </div>
-                </div>
-            </div>
-
-            <div class="card-image">
-                <div class="imagen grande">
-                    <img class="imagen-galeria" src="./img/galeria/gato9.jpeg" alt="" />
-                    <div class="hover-info">
-                        <button class="boton card-image rojo">Guardar</button>
-                        <div class="info-botones">
-                            <button class="boton card-image">Descargar</button>
-                            <button class="boton card-image">Mas info.</button>
-                        </div>
-                    </div>
-                </div>
-                <div class="extra-info">
-                    <div class="perfil-info">
-                        <img class="imagen-perfil" src="./img/iconos/usuario.png" alt="usuario" />
-                        <p>Vianey Villegas</p>
-                    </div>
-                    <div class="reacciones">
-                        <img class="imagen-reaccion" src="./img/iconos/feliz.png" alt="feliz" />
-                        <img class="imagen-reaccion" src="./img/iconos/encantar.png" alt="encantar" />
-                        <img class="imagen-reaccion" src="./img/iconos/sorprendido.png" alt="sorprendido" />
-                        <p>287</p>
-                    </div>
-                </div>
-            </div>
-
-            <div class="card-image">
-                <div class="imagen peq">
-                    <img class="imagen-galeria" src="./img/galeria/gato10.jpeg" alt="" />
-                    <div class="hover-info">
-                        <button class="boton card-image rojo">Guardar</button>
-                        <div class="info-botones">
-                            <button class="boton card-image">Descargar</button>
-                            <button class="boton card-image">Mas info.</button>
-                        </div>
-                    </div>
-                </div>
-                <div class="extra-info">
-                    <div class="perfil-info">
-                        <img class="imagen-perfil" src="./img/iconos/usuario.png" alt="usuario" />
-                        <p>Vianey Villegas</p>
-                    </div>
-                    <div class="reacciones">
-                        <img class="imagen-reaccion" src="./img/iconos/feliz.png" alt="feliz" />
-                        <img class="imagen-reaccion" src="./img/iconos/encantar.png" alt="encantar" />
-                        <img class="imagen-reaccion" src="./img/iconos/sorprendido.png" alt="sorprendido" />
-                        <p>287</p>
-                    </div>
-                </div>
-            </div>
-
-            <div class="card-image">
-                <div class="imagen med">
-                    <img class="imagen-galeria" src="./img/galeria/gato11.jpeg" alt="" />
-                    <div class="hover-info">
-                        <button class="boton card-image rojo">Guardar</button>
-                        <div class="info-botones">
-                            <button class="boton card-image">Descargar</button>
-                            <button class="boton card-image">Mas info.</button>
-                        </div>
-                    </div>
-                </div>
-                <div class="extra-info">
-                    <div class="perfil-info">
-                        <img class="imagen-perfil" src="./img/iconos/usuario.png" alt="usuario" />
-                        <p>Vianey Villegas</p>
-                    </div>
-                    <div class="reacciones">
-                        <img class="imagen-reaccion" src="./img/iconos/feliz.png" alt="feliz" />
-                        <img class="imagen-reaccion" src="./img/iconos/encantar.png" alt="encantar" />
-                        <img class="imagen-reaccion" src="./img/iconos/sorprendido.png" alt="sorprendido" />
-                        <p>287</p>
-                    </div>
-                </div>
-            </div>
-
-            <div class="card-image">
-                <div class="imagen grande">
-                    <img class="imagen-galeria" src="./img/galeria/gato12.jpeg" alt="" />
-                    <div class="hover-info">
-                        <button class="boton card-image rojo">Guardar</button>
-                        <div class="info-botones">
-                            <button class="boton card-image">Descargar</button>
-                            <button class="boton card-image">Mas info.</button>
-                        </div>
-                    </div>
-                </div>
-                <div class="extra-info">
-                    <div class="perfil-info">
-                        <img class="imagen-perfil" src="./img/iconos/usuario.png" alt="usuario" />
-                        <p>Vianey Villegas</p>
-                    </div>
-                    <div class="reacciones">
-                        <img class="imagen-reaccion" src="./img/iconos/feliz.png" alt="feliz" />
-                        <img class="imagen-reaccion" src="./img/iconos/encantar.png" alt="encantar" />
-                        <img class="imagen-reaccion" src="./img/iconos/sorprendido.png" alt="sorprendido" />
-                        <p>287</p>
-                    </div>
-                </div>
-            </div>
-
-            <div class="card-image">
-                <div class="imagen peq">
-                    <img class="imagen-galeria" src="./img/galeria/gato13.jpeg" alt="" />
-                    <div class="hover-info">
-                        <button class="boton card-image rojo">Guardar</button>
-                        <div class="info-botones">
-                            <button class="boton card-image">Descargar</button>
-                            <button class="boton card-image">Mas info.</button>
-                        </div>
-                    </div>
-                </div>
-                <div class="extra-info">
-                    <div class="perfil-info">
-                        <img class="imagen-perfil" src="./img/iconos/usuario.png" alt="usuario" />
-                        <p>Vianey Villegas</p>
-                    </div>
-                    <div class="reacciones">
-                        <img class="imagen-reaccion" src="./img/iconos/feliz.png" alt="feliz" />
-                        <img class="imagen-reaccion" src="./img/iconos/encantar.png" alt="encantar" />
-                        <img class="imagen-reaccion" src="./img/iconos/sorprendido.png" alt="sorprendido" />
-                        <p>287</p>
-                    </div>
-                </div>
-            </div>
-
-            <div class="card-image">
-                <div class="imagen peq">
-                    <img class="imagen-galeria" src="./img/galeria/gato14.jpeg" alt="" />
-                    <div class="hover-info">
-                        <button class="boton card-image rojo">Guardar</button>
-                        <div class="info-botones">
-                            <button class="boton card-image">Descargar</button>
-                            <button class="boton card-image">Mas info.</button>
-                        </div>
-                    </div>
-                </div>
-                <div class="extra-info">
-                    <div class="perfil-info">
-                        <img class="imagen-perfil" src="./img/iconos/usuario.png" alt="usuario" />
-                        <p>Vianey Villegas</p>
-                    </div>
-                    <div class="reacciones">
-                        <img class="imagen-reaccion" src="./img/iconos/feliz.png" alt="feliz" />
-                        <img class="imagen-reaccion" src="./img/iconos/encantar.png" alt="encantar" />
-                        <img class="imagen-reaccion" src="./img/iconos/sorprendido.png" alt="sorprendido" />
-                        <p>287</p>
-                    </div>
-                </div>
-            </div>
-
-            <div class="card-image">
-                <div class="imagen med">
-                    <img class="imagen-galeria" src="./img/galeria/gato15.jpeg" alt="" />
-                    <div class="hover-info">
-                        <button class="boton card-image rojo">Guardar</button>
-                        <div class="info-botones">
-                            <button class="boton card-image">Descargar</button>
-                            <button class="boton card-image">Mas info.</button>
-                        </div>
-                    </div>
-                </div>
-                <div class="extra-info">
-                    <div class="perfil-info">
-                        <img class="imagen-perfil" src="./img/iconos/usuario.png" alt="usuario" />
-                        <p>Vianey Villegas</p>
-                    </div>
-                    <div class="reacciones">
-                        <img class="imagen-reaccion" src="./img/iconos/feliz.png" alt="feliz" />
-                        <img class="imagen-reaccion" src="./img/iconos/encantar.png" alt="encantar" />
-                        <img class="imagen-reaccion" src="./img/iconos/sorprendido.png" alt="sorprendido" />
-                        <p>287</p>
-                    </div>
-                </div>
-            </div>
-
-            <div class="card-image">
-                <div class="imagen grande">
-                    <img class="imagen-galeria" src="./img/galeria/gato16.jpeg" alt="" />
-                    <div class="hover-info">
-                        <button class="boton card-image rojo">Guardar</button>
-                        <div class="info-botones">
-                            <button class="boton card-image">Descargar</button>
-                            <button class="boton card-image">Mas info.</button>
-                        </div>
-                    </div>
-                </div>
-                <div class="extra-info">
-                    <div class="perfil-info">
-                        <img class="imagen-perfil" src="./img/iconos/usuario.png" alt="usuario" />
-                        <p>Vianey Villegas</p>
-                    </div>
-                    <div class="reacciones">
-                        <img class="imagen-reaccion" src="./img/iconos/feliz.png" alt="feliz" />
-                        <img class="imagen-reaccion" src="./img/iconos/encantar.png" alt="encantar" />
-                        <img class="imagen-reaccion" src="./img/iconos/sorprendido.png" alt="sorprendido" />
-                        <p>287</p>
-                    </div>
-                </div>
-            </div>
-
-            <div class="card-image">
-                <div class="imagen med">
-                    <img class="imagen-galeria" src="./img/galeria/gato17.jpeg" alt="" />
-                    <div class="hover-info">
-                        <button class="boton card-image rojo">Guardar</button>
-                        <div class="info-botones">
-                            <button class="boton card-image">Descargar</button>
-                            <button class="boton card-image">Mas info.</button>
-                        </div>
-                    </div>
-                </div>
-                <div class="extra-info">
-                    <div class="perfil-info">
-                        <img class="imagen-perfil" src="./img/iconos/usuario.png" alt="usuario" />
-                        <p>Vianey Villegas</p>
-                    </div>
-                    <div class="reacciones">
-                        <img class="imagen-reaccion" src="./img/iconos/feliz.png" alt="feliz" />
-                        <img class="imagen-reaccion" src="./img/iconos/encantar.png" alt="encantar" />
-                        <img class="imagen-reaccion" src="./img/iconos/sorprendido.png" alt="sorprendido" />
-                        <p>287</p>
-                    </div>
-                </div>
-            </div>
-
-            <div class="card-image">
-                <div class="imagen grande">
-                    <img class="imagen-galeria" src="./img/galeria/gato18.gif" alt="" />
-                    <div class="hover-info">
-                        <button class="boton card-image rojo">Guardar</button>
-                        <div class="info-botones">
-                            <button class="boton card-image">Descargar</button>
-                            <button class="boton card-image">Mas info.</button>
-                        </div>
-                    </div>
-                </div>
-                <div class="extra-info">
-                    <div class="perfil-info">
-                        <img class="imagen-perfil" src="./img/iconos/usuario.png" alt="usuario" />
-                        <p>Vianey Villegas</p>
-                    </div>
-                    <div class="reacciones">
-                        <img class="imagen-reaccion" src="./img/iconos/feliz.png" alt="feliz" />
-                        <img class="imagen-reaccion" src="./img/iconos/encantar.png" alt="encantar" />
-                        <img class="imagen-reaccion" src="./img/iconos/sorprendido.png" alt="sorprendido" />
-                        <p>287</p>
-                    </div>
-                </div>
-            </div>
-
-            <div class="card-image">
-                <div class="imagen peq">
-                    <img class="imagen-galeria" src="./img/galeria/gato19.jpeg" alt="" />
-                    <div class="hover-info">
-                        <button class="boton card-image rojo">Guardar</button>
-                        <div class="info-botones">
-                            <button class="boton card-image">Descargar</button>
-                            <button class="boton card-image">Mas info.</button>
-                        </div>
-                    </div>
-                </div>
-                <div class="extra-info">
-                    <div class="perfil-info">
-                        <img class="imagen-perfil" src="./img/iconos/usuario.png" alt="usuario" />
-                        <p>Vianey Villegas</p>
-                    </div>
-                    <div class="reacciones">
-                        <img class="imagen-reaccion" src="./img/iconos/feliz.png" alt="feliz" />
-                        <img class="imagen-reaccion" src="./img/iconos/encantar.png" alt="encantar" />
-                        <img class="imagen-reaccion" src="./img/iconos/sorprendido.png" alt="sorprendido" />
-                        <p>287</p>
-                    </div>
-                </div>
-            </div>
-
-            <div class="card-image">
-                <div class="imagen med">
-                    <img class="imagen-galeria" src="./img/galeria/gato20.gif" alt="" />
-                    <div class="hover-info">
-                        <button class="boton card-image rojo">Guardar</button>
-                        <div class="info-botones">
-                            <button class="boton card-image">Descargar</button>
-                            <button class="boton card-image">Mas info.</button>
-                        </div>
-                    </div>
-                </div>
-                <div class="extra-info">
-                    <div class="perfil-info">
-                        <img class="imagen-perfil" src="./img/iconos/usuario.png" alt="usuario" />
-                        <p>Vianey Villegas</p>
-                    </div>
-                    <div class="reacciones">
-                        <img class="imagen-reaccion" src="./img/iconos/feliz.png" alt="feliz" />
-                        <img class="imagen-reaccion" src="./img/iconos/encantar.png" alt="encantar" />
-                        <img class="imagen-reaccion" src="./img/iconos/sorprendido.png" alt="sorprendido" />
-                        <p>287</p>
-                    </div>
-                </div>
-            </div>
-
-            <div class="card-image">
-                <div class="imagen peq">
-                    <img class="imagen-galeria" src="./img/galeria/gato21.gif" alt="" />
-                    <div class="hover-info">
-                        <button class="boton card-image rojo">Guardar</button>
-                        <div class="info-botones">
-                            <button class="boton card-image">Descargar</button>
-                            <button class="boton card-image">Mas info.</button>
-                        </div>
-                    </div>
-                </div>
-                <div class="extra-info">
-                    <div class="perfil-info">
-                        <img class="imagen-perfil" src="./img/iconos/usuario.png" alt="usuario" />
-                        <p>Vianey Villegas</p>
-                    </div>
-                    <div class="reacciones">
-                        <img class="imagen-reaccion" src="./img/iconos/feliz.png" alt="feliz" />
-                        <img class="imagen-reaccion" src="./img/iconos/encantar.png" alt="encantar" />
-                        <img class="imagen-reaccion" src="./img/iconos/sorprendido.png" alt="sorprendido" />
-                        <p>287</p>
-                    </div>
-                </div>
-            </div>
-
-            <div class="card-image">
-                <div class="imagen grande">
-                    <img class="imagen-galeria" src="./img/galeria/gato22.gif" alt="" />
-                    <div class="hover-info">
-                        <button class="boton card-image rojo">Guardar</button>
-                        <div class="info-botones">
-                            <button class="boton card-image">Descargar</button>
-                            <button class="boton card-image">Mas info.</button>
-                        </div>
-                    </div>
-                </div>
-                <div class="extra-info">
-                    <div class="perfil-info">
-                        <img class="imagen-perfil" src="./img/iconos/usuario.png" alt="usuario" />
-                        <p>Vianey Villegas</p>
-                    </div>
-                    <div class="reacciones">
-                        <img class="imagen-reaccion" src="./img/iconos/feliz.png" alt="feliz" />
-                        <img class="imagen-reaccion" src="./img/iconos/encantar.png" alt="encantar" />
-                        <img class="imagen-reaccion" src="./img/iconos/sorprendido.png" alt="sorprendido" />
-                        <p>287</p>
-                    </div>
-                </div>
-            </div>
-
-            <div class="card-image">
-                <div class="imagen peq">
-                    <img class="imagen-galeria" src="./img/galeria/gato23.jpeg" alt="" />
-                    <div class="hover-info">
-                        <button class="boton card-image rojo">Guardar</button>
-                        <div class="info-botones">
-                            <button class="boton card-image">Descargar</button>
-                            <button class="boton card-image">Mas info.</button>
-                        </div>
-                    </div>
-                </div>
-                <div class="extra-info">
-                    <div class="perfil-info">
-                        <img class="imagen-perfil" src="./img/iconos/usuario.png" alt="usuario" />
-                        <p>Vianey Villegas</p>
-                    </div>
-                    <div class="reacciones">
-                        <img class="imagen-reaccion" src="./img/iconos/feliz.png" alt="feliz" />
-                        <img class="imagen-reaccion" src="./img/iconos/encantar.png" alt="encantar" />
-                        <img class="imagen-reaccion" src="./img/iconos/sorprendido.png" alt="sorprendido" />
-                        <p>287</p>
-                    </div>
-                </div>
-            </div>
-
-            <div class="card-image">
-                <div class="imagen med">
-                    <img class="imagen-galeria" src="./img/galeria/gato24.jpeg" alt="" />
-                    <div class="hover-info">
-                        <button class="boton card-image rojo">Guardar</button>
-                        <div class="info-botones">
-                            <button class="boton card-image">Descargar</button>
-                            <button class="boton card-image">Mas info.</button>
-                        </div>
-                    </div>
-                </div>
-                <div class="extra-info">
-                    <div class="perfil-info">
-                        <img class="imagen-perfil" src="./img/iconos/usuario.png" alt="usuario" />
-                        <p>Vianey Villegas</p>
-                    </div>
-                    <div class="reacciones">
-                        <img class="imagen-reaccion" src="./img/iconos/feliz.png" alt="feliz" />
-                        <img class="imagen-reaccion" src="./img/iconos/encantar.png" alt="encantar" />
-                        <img class="imagen-reaccion" src="./img/iconos/sorprendido.png" alt="sorprendido" />
-                        <p>287</p>
-                    </div>
-                </div>
-            </div>
-
-            <div class="card-image">
-                <div class="imagen peq">
-                    <img class="imagen-galeria" src="./img/galeria/gato25.jpeg" alt="" />
-                    <div class="hover-info">
-                        <button class="boton card-image rojo">Guardar</button>
-                        <div class="info-botones">
-                            <button class="boton card-image">Descargar</button>
-                            <button class="boton card-image">Mas info.</button>
-                        </div>
-                    </div>
-                </div>
-                <div class="extra-info">
-                    <div class="perfil-info">
-                        <img class="imagen-perfil" src="./img/iconos/usuario.png" alt="usuario" />
-                        <p>Vianey Villegas</p>
-                    </div>
-                    <div class="reacciones">
-                        <img class="imagen-reaccion" src="./img/iconos/feliz.png" alt="feliz" />
-                        <img class="imagen-reaccion" src="./img/iconos/encantar.png" alt="encantar" />
-                        <img class="imagen-reaccion" src="./img/iconos/sorprendido.png" alt="sorprendido" />
-                        <p>287</p>
-                    </div>
-                </div>
-            </div>
-
-            <div class="card-image">
-                <div class="imagen med">
-                    <img class="imagen-galeria" src="./img/galeria/gato26.jpeg" alt="" />
-                    <div class="hover-info">
-                        <button class="boton card-image rojo">Guardar</button>
-                        <div class="info-botones">
-                            <button class="boton card-image">Descargar</button>
-                            <button class="boton card-image">Mas info.</button>
-                        </div>
-                    </div>
-                </div>
-                <div class="extra-info">
-                    <div class="perfil-info">
-                        <img class="imagen-perfil" src="./img/iconos/usuario.png" alt="usuario" />
-                        <p>Vianey Villegas</p>
-                    </div>
-                    <div class="reacciones">
-                        <img class="imagen-reaccion" src="./img/iconos/feliz.png" alt="feliz" />
-                        <img class="imagen-reaccion" src="./img/iconos/encantar.png" alt="encantar" />
-                        <img class="imagen-reaccion" src="./img/iconos/sorprendido.png" alt="sorprendido" />
-                        <p>287</p>
-                    </div>
-                </div>
-            </div>
-
-            <div class="card-image">
-                <div class="imagen med">
-                    <img class="imagen-galeria" src="./img/galeria/gato27.gif" alt="" />
-                    <div class="hover-info">
-                        <button class="boton card-image rojo">Guardar</button>
-                        <div class="info-botones">
-                            <button class="boton card-image">Descargar</button>
-                            <button class="boton card-image">Mas info.</button>
-                        </div>
-                    </div>
-                </div>
-                <div class="extra-info">
-                    <div class="perfil-info">
-                        <img class="imagen-perfil" src="./img/iconos/usuario.png" alt="usuario" />
-                        <p>Vianey Villegas</p>
-                    </div>
-                    <div class="reacciones">
-                        <img class="imagen-reaccion" src="./img/iconos/feliz.png" alt="feliz" />
-                        <img class="imagen-reaccion" src="./img/iconos/encantar.png" alt="encantar" />
-                        <img class="imagen-reaccion" src="./img/iconos/sorprendido.png" alt="sorprendido" />
-                        <p>287</p>
-                    </div>
-                </div>
-            </div>
-
-            <div class="card-image">
-                <div class="imagen grande">
-                    <img class="imagen-galeria" src="./img/galeria/gato28.gif" alt="" />
-                    <div class="hover-info">
-                        <button class="boton card-image rojo">Guardar</button>
-                        <div class="info-botones">
-                            <button class="boton card-image">Descargar</button>
-                            <button class="boton card-image">Mas info.</button>
-                        </div>
-                    </div>
-                </div>
-                <div class="extra-info">
-                    <div class="perfil-info">
-                        <img class="imagen-perfil" src="./img/iconos/usuario.png" alt="usuario" />
-                        <p>Vianey Villegas</p>
-                    </div>
-                    <div class="reacciones">
-                        <img class="imagen-reaccion" src="./img/iconos/feliz.png" alt="feliz" />
-                        <img class="imagen-reaccion" src="./img/iconos/encantar.png" alt="encantar" />
-                        <img class="imagen-reaccion" src="./img/iconos/sorprendido.png" alt="sorprendido" />
-                        <p>287</p>
-                    </div>
-                </div>
-            </div>
-
-            <div class="card-image">
-                <div class="imagen peq">
-                    <img class="imagen-galeria" src="./img/galeria/gato29.gif" alt="" />
-                    <div class="hover-info">
-                        <button class="boton card-image rojo">Guardar</button>
-                        <div class="info-botones">
-                            <button class="boton card-image">Descargar</button>
-                            <button class="boton card-image">Mas info.</button>
-                        </div>
-                    </div>
-                </div>
-                <div class="extra-info">
-                    <div class="perfil-info">
-                        <img class="imagen-perfil" src="./img/iconos/usuario.png" alt="usuario" />
-                        <p>Vianey Villegas</p>
-                    </div>
-                    <div class="reacciones">
-                        <img class="imagen-reaccion" src="./img/iconos/feliz.png" alt="feliz" />
-                        <img class="imagen-reaccion" src="./img/iconos/encantar.png" alt="encantar" />
-                        <img class="imagen-reaccion" src="./img/iconos/sorprendido.png" alt="sorprendido" />
-                        <p>287</p>
-                    </div>
-                </div>
-            </div>
-
-            <div class="card-image">
-                <div class="imagen med">
-                    <img class="imagen-galeria" src="./img/galeria/gato30.gif" alt="" />
-                    <div class="hover-info">
-                        <button class="boton card-image rojo">Guardar</button>
-                        <div class="info-botones">
-                            <button class="boton card-image">Descargar</button>
-                            <button class="boton card-image">Mas info.</button>
-                        </div>
-                    </div>
-                </div>
-                <div class="extra-info">
-                    <div class="perfil-info">
-                        <img class="imagen-perfil" src="./img/iconos/usuario.png" alt="usuario" />
-                        <p>Vianey Villegas</p>
-                    </div>
-                    <div class="reacciones">
-                        <img class="imagen-reaccion" src="./img/iconos/feliz.png" alt="feliz" />
-                        <img class="imagen-reaccion" src="./img/iconos/encantar.png" alt="encantar" />
-                        <img class="imagen-reaccion" src="./img/iconos/sorprendido.png" alt="sorprendido" />
-                        <p>287</p>
-                    </div>
+                <div class="reacciones">
+                    <img class="imagen-reaccion" src="./img/iconos/feliz.png" alt="feliz" />
+                    <img class="imagen-reaccion" src="./img/iconos/encantar.png" alt="encantar" />
+                    <img class="imagen-reaccion" src="./img/iconos/sorprendido.png" alt="sorprendido" />
+                    <p>287</p>
                 </div>
             </div>
         </div>
-    </main>
-    <footer>
 
-    </footer>
+        <div class="card-image">
+            <div class="imagen med">
+                <img class="imagen-galeria" src="./img/galeria/gato2.jpeg" alt="" />
+                <div class="hover-info">
+                    <button class="boton card-image rojo">Guardar</button>
+                    <div class="info-botones">
+                        <button class="boton card-image">
+                            <img src="./img/iconos/descarga.png" alt="descarga" width="22px" />
+                        </button>
+                        <button class="boton card-image">
+                            <img src="./img/iconos/compartir.png" alt="compartir" width="22px" />
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="extra-info">
+                <div class="perfil-info">
+                    <img class="imagen-perfil" src="./img/iconos/usuario.png" alt="usuario" />
+                    <p>Vianey Villegas</p>
+                </div>
+                <div class="reacciones">
+                    <img class="imagen-reaccion" src="./img/iconos/feliz.png" alt="feliz" />
+                    <img class="imagen-reaccion" src="./img/iconos/encantar.png" alt="encantar" />
+                    <img class="imagen-reaccion" src="./img/iconos/sorprendido.png" alt="sorprendido" />
+                    <p>287</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="card-image">
+            <div class="imagen peq">
+                <img class="imagen-galeria" src="./img/galeria/gato3.jpeg" alt="" />
+                <div class="hover-info">
+                    <button class="boton card-image rojo">Guardar</button>
+                    <div class="info-botones">
+                        <button class="boton card-image">
+                            <img src="./img/iconos/descarga.png" alt="descarga" width="22px" />
+                        </button>
+                        <button class="boton card-image">
+                            <img src="./img/iconos/compartir.png" alt="compartir" width="22px" />
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="extra-info">
+                <div class="perfil-info">
+                    <img class="imagen-perfil" src="./img/iconos/usuario.png" alt="usuario" />
+                    <p>Vianey Villegas</p>
+                </div>
+                <div class="reacciones">
+                    <img class="imagen-reaccion" src="./img/iconos/feliz.png" alt="feliz" />
+                    <img class="imagen-reaccion" src="./img/iconos/encantar.png" alt="encantar" />
+                    <img class="imagen-reaccion" src="./img/iconos/sorprendido.png" alt="sorprendido" />
+                    <p>287</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="card-image">
+            <div class="imagen med">
+                <img class="imagen-galeria" src="./img/galeria/gato4.jpeg" alt="" />
+                <div class="hover-info">
+                    <button class="boton card-image rojo">Guardar</button>
+                    <div class="info-botones">
+                        <button class="boton card-image">
+                            <img src="./img/iconos/descarga.png" alt="descarga" width="22px" />
+                        </button>
+                        <button class="boton card-image">
+                            <img src="./img/iconos/compartir.png" alt="compartir" width="22px" />
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="extra-info">
+                <div class="perfil-info">
+                    <img class="imagen-perfil" src="./img/iconos/usuario.png" alt="usuario" />
+                    <p>Vianey Villegas</p>
+                </div>
+                <div class="reacciones">
+                    <img class="imagen-reaccion" src="./img/iconos/feliz.png" alt="feliz" />
+                    <img class="imagen-reaccion" src="./img/iconos/encantar.png" alt="encantar" />
+                    <img class="imagen-reaccion" src="./img/iconos/sorprendido.png" alt="sorprendido" />
+                    <p>287</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="card-image">
+            <div class="imagen grande">
+                <img class="imagen-galeria" src="./img/galeria/gato5.jpeg" alt="" />
+                <div class="hover-info">
+                    <button class="boton card-image rojo">Guardar</button>
+                    <div class="info-botones">
+                        <button class="boton card-image">
+                            <img src="./img/iconos/descarga.png" alt="descarga" width="22px" />
+                        </button>
+                        <button class="boton card-image">
+                            <img src="./img/iconos/compartir.png" alt="compartir" width="22px" />
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="extra-info">
+                <div class="perfil-info">
+                    <img class="imagen-perfil" src="./img/iconos/usuario.png" alt="usuario" />
+                    <p>Vianey Villegas</p>
+                </div>
+                <div class="reacciones">
+                    <img class="imagen-reaccion" src="./img/iconos/feliz.png" alt="feliz" />
+                    <img class="imagen-reaccion" src="./img/iconos/encantar.png" alt="encantar" />
+                    <img class="imagen-reaccion" src="./img/iconos/sorprendido.png" alt="sorprendido" />
+                    <p>287</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="card-image">
+            <div class="imagen peq">
+                <img class="imagen-galeria" src="./img/galeria/gato6.jpeg" alt="" />
+                <div class="hover-info">
+                    <button class="boton card-image rojo">Guardar</button>
+                    <div class="info-botones">
+                        <button class="boton card-image">
+                            <img src="./img/iconos/descarga.png" alt="descarga" width="22px" />
+                        </button>
+                        <button class="boton card-image">
+                            <img src="./img/iconos/compartir.png" alt="compartir" width="22px" />
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="extra-info">
+                <div class="perfil-info">
+                    <img class="imagen-perfil" src="./img/iconos/usuario.png" alt="usuario" />
+                    <p>Vianey Villegas</p>
+                </div>
+                <div class="reacciones">
+                    <img class="imagen-reaccion" src="./img/iconos/feliz.png" alt="feliz" />
+                    <img class="imagen-reaccion" src="./img/iconos/encantar.png" alt="encantar" />
+                    <img class="imagen-reaccion" src="./img/iconos/sorprendido.png" alt="sorprendido" />
+                    <p>287</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="card-image">
+            <div class="imagen grande">
+                <img class="imagen-galeria" src="./img/galeria/gato7.gif" alt="" />
+                <div class="hover-info">
+                    <button class="boton card-image rojo">Guardar</button>
+                    <div class="info-botones">
+                        <button class="boton card-image">
+                            <img src="./img/iconos/descarga.png" alt="descarga" width="22px" />
+                        </button>
+                        <button class="boton card-image">
+                            <img src="./img/iconos/compartir.png" alt="compartir" width="22px" />
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="extra-info">
+                <div class="perfil-info">
+                    <img class="imagen-perfil" src="./img/iconos/usuario.png" alt="usuario" />
+                    <p>Vianey Villegas</p>
+                </div>
+                <div class="reacciones">
+                    <img class="imagen-reaccion" src="./img/iconos/feliz.png" alt="feliz" />
+                    <img class="imagen-reaccion" src="./img/iconos/encantar.png" alt="encantar" />
+                    <img class="imagen-reaccion" src="./img/iconos/sorprendido.png" alt="sorprendido" />
+                    <p>287</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="card-image">
+            <div class="imagen med">
+                <img class="imagen-galeria" src="./img/galeria/gato8.jpeg" alt="" />
+                <div class="hover-info">
+                    <button class="boton card-image rojo">Guardar</button>
+                    <div class="info-botones">
+                        <button class="boton card-image">
+                            <img src="./img/iconos/descarga.png" alt="descarga" width="22px" />
+                        </button>
+                        <button class="boton card-image">
+                            <img src="./img/iconos/compartir.png" alt="compartir" width="22px" />
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="extra-info">
+                <div class="perfil-info">
+                    <img class="imagen-perfil" src="./img/iconos/usuario.png" alt="usuario" />
+                    <p>Vianey Villegas</p>
+                </div>
+                <div class="reacciones">
+                    <img class="imagen-reaccion" src="./img/iconos/feliz.png" alt="feliz" />
+                    <img class="imagen-reaccion" src="./img/iconos/encantar.png" alt="encantar" />
+                    <img class="imagen-reaccion" src="./img/iconos/sorprendido.png" alt="sorprendido" />
+                    <p>287</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="card-image">
+            <div class="imagen grande">
+                <img class="imagen-galeria" src="./img/galeria/gato9.jpeg" alt="" />
+                <div class="hover-info">
+                    <button class="boton card-image rojo">Guardar</button>
+                    <div class="info-botones">
+                        <button class="boton card-image">
+                            <img src="./img/iconos/descarga.png" alt="descarga" width="22px" />
+                        </button>
+                        <button class="boton card-image">
+                            <img src="./img/iconos/compartir.png" alt="compartir" width="22px" />
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="extra-info">
+                <div class="perfil-info">
+                    <img class="imagen-perfil" src="./img/iconos/usuario.png" alt="usuario" />
+                    <p>Vianey Villegas</p>
+                </div>
+                <div class="reacciones">
+                    <img class="imagen-reaccion" src="./img/iconos/feliz.png" alt="feliz" />
+                    <img class="imagen-reaccion" src="./img/iconos/encantar.png" alt="encantar" />
+                    <img class="imagen-reaccion" src="./img/iconos/sorprendido.png" alt="sorprendido" />
+                    <p>287</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="card-image">
+            <div class="imagen peq">
+                <img class="imagen-galeria" src="./img/galeria/gato10.jpeg" alt="" />
+                <div class="hover-info">
+                    <button class="boton card-image rojo">Guardar</button>
+                    <div class="info-botones">
+                        <button class="boton card-image">
+                            <img src="./img/iconos/descarga.png" alt="descarga" width="22px" />
+                        </button>
+                        <button class="boton card-image">
+                            <img src="./img/iconos/compartir.png" alt="compartir" width="22px" />
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="extra-info">
+                <div class="perfil-info">
+                    <img class="imagen-perfil" src="./img/iconos/usuario.png" alt="usuario" />
+                    <p>Vianey Villegas</p>
+                </div>
+                <div class="reacciones">
+                    <img class="imagen-reaccion" src="./img/iconos/feliz.png" alt="feliz" />
+                    <img class="imagen-reaccion" src="./img/iconos/encantar.png" alt="encantar" />
+                    <img class="imagen-reaccion" src="./img/iconos/sorprendido.png" alt="sorprendido" />
+                    <p>287</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="card-image">
+            <div class="imagen med">
+                <img class="imagen-galeria" src="./img/galeria/gato11.jpeg" alt="" />
+                <div class="hover-info">
+                    <button class="boton card-image rojo">Guardar</button>
+                    <div class="info-botones">
+                        <button class="boton card-image">
+                            <img src="./img/iconos/descarga.png" alt="descarga" width="22px" />
+                        </button>
+                        <button class="boton card-image">
+                            <img src="./img/iconos/compartir.png" alt="compartir" width="22px" />
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="extra-info">
+                <div class="perfil-info">
+                    <img class="imagen-perfil" src="./img/iconos/usuario.png" alt="usuario" />
+                    <p>Vianey Villegas</p>
+                </div>
+                <div class="reacciones">
+                    <img class="imagen-reaccion" src="./img/iconos/feliz.png" alt="feliz" />
+                    <img class="imagen-reaccion" src="./img/iconos/encantar.png" alt="encantar" />
+                    <img class="imagen-reaccion" src="./img/iconos/sorprendido.png" alt="sorprendido" />
+                    <p>287</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="card-image">
+            <div class="imagen grande">
+                <img class="imagen-galeria" src="./img/galeria/gato12.jpeg" alt="" />
+                <div class="hover-info">
+                    <button class="boton card-image rojo">Guardar</button>
+                    <div class="info-botones">
+                        <button class="boton card-image">
+                            <img src="./img/iconos/descarga.png" alt="descarga" width="22px" />
+                        </button>
+                        <button class="boton card-image">
+                            <img src="./img/iconos/compartir.png" alt="compartir" width="22px" />
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="extra-info">
+                <div class="perfil-info">
+                    <img class="imagen-perfil" src="./img/iconos/usuario.png" alt="usuario" />
+                    <p>Vianey Villegas</p>
+                </div>
+                <div class="reacciones">
+                    <img class="imagen-reaccion" src="./img/iconos/feliz.png" alt="feliz" />
+                    <img class="imagen-reaccion" src="./img/iconos/encantar.png" alt="encantar" />
+                    <img class="imagen-reaccion" src="./img/iconos/sorprendido.png" alt="sorprendido" />
+                    <p>287</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="card-image">
+            <div class="imagen peq">
+                <img class="imagen-galeria" src="./img/galeria/gato13.jpeg" alt="" />
+                <div class="hover-info">
+                    <button class="boton card-image rojo">Guardar</button>
+                    <div class="info-botones">
+                        <button class="boton card-image">
+                            <img src="./img/iconos/descarga.png" alt="descarga" width="22px" />
+                        </button>
+                        <button class="boton card-image">
+                            <img src="./img/iconos/compartir.png" alt="compartir" width="22px" />
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="extra-info">
+                <div class="perfil-info">
+                    <img class="imagen-perfil" src="./img/iconos/usuario.png" alt="usuario" />
+                    <p>Vianey Villegas</p>
+                </div>
+                <div class="reacciones">
+                    <img class="imagen-reaccion" src="./img/iconos/feliz.png" alt="feliz" />
+                    <img class="imagen-reaccion" src="./img/iconos/encantar.png" alt="encantar" />
+                    <img class="imagen-reaccion" src="./img/iconos/sorprendido.png" alt="sorprendido" />
+                    <p>287</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="card-image">
+            <div class="imagen peq">
+                <img class="imagen-galeria" src="./img/galeria/gato14.jpeg" alt="" />
+                <div class="hover-info">
+                    <button class="boton card-image rojo">Guardar</button>
+                    <div class="info-botones">
+                        <button class="boton card-image">
+                            <img src="./img/iconos/descarga.png" alt="descarga" width="22px" />
+                        </button>
+                        <button class="boton card-image">
+                            <img src="./img/iconos/compartir.png" alt="compartir" width="22px" />
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="extra-info">
+                <div class="perfil-info">
+                    <img class="imagen-perfil" src="./img/iconos/usuario.png" alt="usuario" />
+                    <p>Vianey Villegas</p>
+                </div>
+                <div class="reacciones">
+                    <img class="imagen-reaccion" src="./img/iconos/feliz.png" alt="feliz" />
+                    <img class="imagen-reaccion" src="./img/iconos/encantar.png" alt="encantar" />
+                    <img class="imagen-reaccion" src="./img/iconos/sorprendido.png" alt="sorprendido" />
+                    <p>287</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="card-image">
+            <div class="imagen med">
+                <img class="imagen-galeria" src="./img/galeria/gato15.jpeg" alt="" />
+                <div class="hover-info">
+                    <button class="boton card-image rojo">Guardar</button>
+                    <div class="info-botones">
+                        <button class="boton card-image">
+                            <img src="./img/iconos/descarga.png" alt="descarga" width="22px" />
+                        </button>
+                        <button class="boton card-image">
+                            <img src="./img/iconos/compartir.png" alt="compartir" width="22px" />
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="extra-info">
+                <div class="perfil-info">
+                    <img class="imagen-perfil" src="./img/iconos/usuario.png" alt="usuario" />
+                    <p>Vianey Villegas</p>
+                </div>
+                <div class="reacciones">
+                    <img class="imagen-reaccion" src="./img/iconos/feliz.png" alt="feliz" />
+                    <img class="imagen-reaccion" src="./img/iconos/encantar.png" alt="encantar" />
+                    <img class="imagen-reaccion" src="./img/iconos/sorprendido.png" alt="sorprendido" />
+                    <p>287</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="card-image">
+            <div class="imagen grande">
+                <img class="imagen-galeria" src="./img/galeria/gato16.jpeg" alt="" />
+                <div class="hover-info">
+                    <button class="boton card-image rojo">Guardar</button>
+                    <div class="info-botones">
+                        <button class="boton card-image">
+                            <img src="./img/iconos/descarga.png" alt="descarga" width="22px" />
+                        </button>
+                        <button class="boton card-image">
+                            <img src="./img/iconos/compartir.png" alt="compartir" width="22px" />
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="extra-info">
+                <div class="perfil-info">
+                    <img class="imagen-perfil" src="./img/iconos/usuario.png" alt="usuario" />
+                    <p>Vianey Villegas</p>
+                </div>
+                <div class="reacciones">
+                    <img class="imagen-reaccion" src="./img/iconos/feliz.png" alt="feliz" />
+                    <img class="imagen-reaccion" src="./img/iconos/encantar.png" alt="encantar" />
+                    <img class="imagen-reaccion" src="./img/iconos/sorprendido.png" alt="sorprendido" />
+                    <p>287</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="card-image">
+            <div class="imagen med">
+                <img class="imagen-galeria" src="./img/galeria/gato17.jpeg" alt="" />
+                <div class="hover-info">
+                    <button class="boton card-image rojo">Guardar</button>
+                    <div class="info-botones">
+                        <button class="boton card-image">
+                            <img src="./img/iconos/descarga.png" alt="descarga" width="22px" />
+                        </button>
+                        <button class="boton card-image">
+                            <img src="./img/iconos/compartir.png" alt="compartir" width="22px" />
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="extra-info">
+                <div class="perfil-info">
+                    <img class="imagen-perfil" src="./img/iconos/usuario.png" alt="usuario" />
+                    <p>Vianey Villegas</p>
+                </div>
+                <div class="reacciones">
+                    <img class="imagen-reaccion" src="./img/iconos/feliz.png" alt="feliz" />
+                    <img class="imagen-reaccion" src="./img/iconos/encantar.png" alt="encantar" />
+                    <img class="imagen-reaccion" src="./img/iconos/sorprendido.png" alt="sorprendido" />
+                    <p>287</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="card-image">
+            <div class="imagen grande">
+                <img class="imagen-galeria" src="./img/galeria/gato18.gif" alt="" />
+                <div class="hover-info">
+                    <button class="boton card-image rojo">Guardar</button>
+                    <div class="info-botones">
+                        <button class="boton card-image">
+                            <img src="./img/iconos/descarga.png" alt="descarga" width="22px" />
+                        </button>
+                        <button class="boton card-image">
+                            <img src="./img/iconos/compartir.png" alt="compartir" width="22px" />
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="extra-info">
+                <div class="perfil-info">
+                    <img class="imagen-perfil" src="./img/iconos/usuario.png" alt="usuario" />
+                    <p>Vianey Villegas</p>
+                </div>
+                <div class="reacciones">
+                    <img class="imagen-reaccion" src="./img/iconos/feliz.png" alt="feliz" />
+                    <img class="imagen-reaccion" src="./img/iconos/encantar.png" alt="encantar" />
+                    <img class="imagen-reaccion" src="./img/iconos/sorprendido.png" alt="sorprendido" />
+                    <p>287</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="card-image">
+            <div class="imagen peq">
+                <img class="imagen-galeria" src="./img/galeria/gato19.jpeg" alt="" />
+                <div class="hover-info">
+                    <button class="boton card-image rojo">Guardar</button>
+                    <div class="info-botones">
+                        <button class="boton card-image">
+                            <img src="./img/iconos/descarga.png" alt="descarga" width="22px" />
+                        </button>
+                        <button class="boton card-image">
+                            <img src="./img/iconos/compartir.png" alt="compartir" width="22px" />
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="extra-info">
+                <div class="perfil-info">
+                    <img class="imagen-perfil" src="./img/iconos/usuario.png" alt="usuario" />
+                    <p>Vianey Villegas</p>
+                </div>
+                <div class="reacciones">
+                    <img class="imagen-reaccion" src="./img/iconos/feliz.png" alt="feliz" />
+                    <img class="imagen-reaccion" src="./img/iconos/encantar.png" alt="encantar" />
+                    <img class="imagen-reaccion" src="./img/iconos/sorprendido.png" alt="sorprendido" />
+                    <p>287</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="card-image">
+            <div class="imagen med">
+                <img class="imagen-galeria" src="./img/galeria/gato20.gif" alt="" />
+                <div class="hover-info">
+                    <button class="boton card-image rojo">Guardar</button>
+                    <div class="info-botones">
+                        <button class="boton card-image">
+                            <img src="./img/iconos/descarga.png" alt="descarga" width="22px" />
+                        </button>
+                        <button class="boton card-image">
+                            <img src="./img/iconos/compartir.png" alt="compartir" width="22px" />
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="extra-info">
+                <div class="perfil-info">
+                    <img class="imagen-perfil" src="./img/iconos/usuario.png" alt="usuario" />
+                    <p>Vianey Villegas</p>
+                </div>
+                <div class="reacciones">
+                    <img class="imagen-reaccion" src="./img/iconos/feliz.png" alt="feliz" />
+                    <img class="imagen-reaccion" src="./img/iconos/encantar.png" alt="encantar" />
+                    <img class="imagen-reaccion" src="./img/iconos/sorprendido.png" alt="sorprendido" />
+                    <p>287</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="card-image">
+            <div class="imagen peq">
+                <img class="imagen-galeria" src="./img/galeria/gato21.gif" alt="" />
+                <div class="hover-info">
+                    <button class="boton card-image rojo">Guardar</button>
+                    <div class="info-botones">
+                        <button class="boton card-image">
+                            <img src="./img/iconos/descarga.png" alt="descarga" width="22px" />
+                        </button>
+                        <button class="boton card-image">
+                            <img src="./img/iconos/compartir.png" alt="compartir" width="22px" />
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="extra-info">
+                <div class="perfil-info">
+                    <img class="imagen-perfil" src="./img/iconos/usuario.png" alt="usuario" />
+                    <p>Vianey Villegas</p>
+                </div>
+                <div class="reacciones">
+                    <img class="imagen-reaccion" src="./img/iconos/feliz.png" alt="feliz" />
+                    <img class="imagen-reaccion" src="./img/iconos/encantar.png" alt="encantar" />
+                    <img class="imagen-reaccion" src="./img/iconos/sorprendido.png" alt="sorprendido" />
+                    <p>287</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="card-image">
+            <div class="imagen grande">
+                <img class="imagen-galeria" src="./img/galeria/gato22.gif" alt="" />
+                <div class="hover-info">
+                    <button class="boton card-image rojo">Guardar</button>
+                    <div class="info-botones">
+                        <button class="boton card-image">
+                            <img src="./img/iconos/descarga.png" alt="descarga" width="22px" />
+                        </button>
+                        <button class="boton card-image">
+                            <img src="./img/iconos/compartir.png" alt="compartir" width="22px" />
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="extra-info">
+                <div class="perfil-info">
+                    <img class="imagen-perfil" src="./img/iconos/usuario.png" alt="usuario" />
+                    <p>Vianey Villegas</p>
+                </div>
+                <div class="reacciones">
+                    <img class="imagen-reaccion" src="./img/iconos/feliz.png" alt="feliz" />
+                    <img class="imagen-reaccion" src="./img/iconos/encantar.png" alt="encantar" />
+                    <img class="imagen-reaccion" src="./img/iconos/sorprendido.png" alt="sorprendido" />
+                    <p>287</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="card-image">
+            <div class="imagen peq">
+                <img class="imagen-galeria" src="./img/galeria/gato23.jpeg" alt="" />
+                <div class="hover-info">
+                    <button class="boton card-image rojo">Guardar</button>
+                    <div class="info-botones">
+                        <button class="boton card-image">
+                            <img src="./img/iconos/descarga.png" alt="descarga" width="22px" />
+                        </button>
+                        <button class="boton card-image">
+                            <img src="./img/iconos/compartir.png" alt="compartir" width="22px" />
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="extra-info">
+                <div class="perfil-info">
+                    <img class="imagen-perfil" src="./img/iconos/usuario.png" alt="usuario" />
+                    <p>Vianey Villegas</p>
+                </div>
+                <div class="reacciones">
+                    <img class="imagen-reaccion" src="./img/iconos/feliz.png" alt="feliz" />
+                    <img class="imagen-reaccion" src="./img/iconos/encantar.png" alt="encantar" />
+                    <img class="imagen-reaccion" src="./img/iconos/sorprendido.png" alt="sorprendido" />
+                    <p>287</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="card-image">
+            <div class="imagen med">
+                <img class="imagen-galeria" src="./img/galeria/gato24.jpeg" alt="" />
+                <div class="hover-info">
+                    <button class="boton card-image rojo">Guardar</button>
+                    <div class="info-botones">
+                        <button class="boton card-image">
+                            <img src="./img/iconos/descarga.png" alt="descarga" width="22px" />
+                        </button>
+                        <button class="boton card-image">
+                            <img src="./img/iconos/compartir.png" alt="compartir" width="22px" />
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="extra-info">
+                <div class="perfil-info">
+                    <img class="imagen-perfil" src="./img/iconos/usuario.png" alt="usuario" />
+                    <p>Vianey Villegas</p>
+                </div>
+                <div class="reacciones">
+                    <img class="imagen-reaccion" src="./img/iconos/feliz.png" alt="feliz" />
+                    <img class="imagen-reaccion" src="./img/iconos/encantar.png" alt="encantar" />
+                    <img class="imagen-reaccion" src="./img/iconos/sorprendido.png" alt="sorprendido" />
+                    <p>287</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="card-image">
+            <div class="imagen peq">
+                <img class="imagen-galeria" src="./img/galeria/gato25.jpeg" alt="" />
+                <div class="hover-info">
+                    <button class="boton card-image rojo">Guardar</button>
+                    <div class="info-botones">
+                        <button class="boton card-image">
+                            <img src="./img/iconos/descarga.png" alt="descarga" width="22px" />
+                        </button>
+                        <button class="boton card-image">
+                            <img src="./img/iconos/compartir.png" alt="compartir" width="22px" />
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="extra-info">
+                <div class="perfil-info">
+                    <img class="imagen-perfil" src="./img/iconos/usuario.png" alt="usuario" />
+                    <p>Vianey Villegas</p>
+                </div>
+                <div class="reacciones">
+                    <img class="imagen-reaccion" src="./img/iconos/feliz.png" alt="feliz" />
+                    <img class="imagen-reaccion" src="./img/iconos/encantar.png" alt="encantar" />
+                    <img class="imagen-reaccion" src="./img/iconos/sorprendido.png" alt="sorprendido" />
+                    <p>287</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="card-image">
+            <div class="imagen med">
+                <img class="imagen-galeria" src="./img/galeria/gato26.jpeg" alt="" />
+                <div class="hover-info">
+                    <button class="boton card-image rojo">Guardar</button>
+                    <div class="info-botones">
+                        <button class="boton card-image">
+                            <img src="./img/iconos/descarga.png" alt="descarga" width="22px" />
+                        </button>
+                        <button class="boton card-image">
+                            <img src="./img/iconos/compartir.png" alt="compartir" width="22px" />
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="extra-info">
+                <div class="perfil-info">
+                    <img class="imagen-perfil" src="./img/iconos/usuario.png" alt="usuario" />
+                    <p>Vianey Villegas</p>
+                </div>
+                <div class="reacciones">
+                    <img class="imagen-reaccion" src="./img/iconos/feliz.png" alt="feliz" />
+                    <img class="imagen-reaccion" src="./img/iconos/encantar.png" alt="encantar" />
+                    <img class="imagen-reaccion" src="./img/iconos/sorprendido.png" alt="sorprendido" />
+                    <p>287</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="card-image">
+            <div class="imagen med">
+                <img class="imagen-galeria" src="./img/galeria/gato27.gif" alt="" />
+                <div class="hover-info">
+                    <button class="boton card-image rojo">Guardar</button>
+                    <div class="info-botones">
+                        <button class="boton card-image">
+                            <img src="./img/iconos/descarga.png" alt="descarga" width="22px" />
+                        </button>
+                        <button class="boton card-image">
+                            <img src="./img/iconos/compartir.png" alt="compartir" width="22px" />
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="extra-info">
+                <div class="perfil-info">
+                    <img class="imagen-perfil" src="./img/iconos/usuario.png" alt="usuario" />
+                    <p>Vianey Villegas</p>
+                </div>
+                <div class="reacciones">
+                    <img class="imagen-reaccion" src="./img/iconos/feliz.png" alt="feliz" />
+                    <img class="imagen-reaccion" src="./img/iconos/encantar.png" alt="encantar" />
+                    <img class="imagen-reaccion" src="./img/iconos/sorprendido.png" alt="sorprendido" />
+                    <p>287</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="card-image">
+            <div class="imagen grande">
+                <img class="imagen-galeria" src="./img/galeria/gato28.gif" alt="" />
+                <div class="hover-info">
+                    <button class="boton card-image rojo">Guardar</button>
+                    <div class="info-botones">
+                        <button class="boton card-image">
+                            <img src="./img/iconos/descarga.png" alt="descarga" width="22px" />
+                        </button>
+                        <button class="boton card-image">
+                            <img src="./img/iconos/compartir.png" alt="compartir" width="22px" />
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="extra-info">
+                <div class="perfil-info">
+                    <img class="imagen-perfil" src="./img/iconos/usuario.png" alt="usuario" />
+                    <p>Vianey Villegas</p>
+                </div>
+                <div class="reacciones">
+                    <img class="imagen-reaccion" src="./img/iconos/feliz.png" alt="feliz" />
+                    <img class="imagen-reaccion" src="./img/iconos/encantar.png" alt="encantar" />
+                    <img class="imagen-reaccion" src="./img/iconos/sorprendido.png" alt="sorprendido" />
+                    <p>287</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="card-image">
+            <div class="imagen peq">
+                <img class="imagen-galeria" src="./img/galeria/gato29.gif" alt="" />
+                <div class="hover-info">
+                    <button class="boton card-image rojo">Guardar</button>
+                    <div class="info-botones">
+                        <button class="boton card-image">
+                            <img src="./img/iconos/descarga.png" alt="descarga" width="22px" />
+                        </button>
+                        <button class="boton card-image">
+                            <img src="./img/iconos/compartir.png" alt="compartir" width="22px" />
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="extra-info">
+                <div class="perfil-info">
+                    <img class="imagen-perfil" src="./img/iconos/usuario.png" alt="usuario" />
+                    <p>Vianey Villegas</p>
+                </div>
+                <div class="reacciones">
+                    <img class="imagen-reaccion" src="./img/iconos/feliz.png" alt="feliz" />
+                    <img class="imagen-reaccion" src="./img/iconos/encantar.png" alt="encantar" />
+                    <img class="imagen-reaccion" src="./img/iconos/sorprendido.png" alt="sorprendido" />
+                    <p>287</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="card-image">
+            <div class="imagen med">
+                <img class="imagen-galeria" src="./img/galeria/gato30.gif" alt="" />
+                <div class="hover-info">
+                    <button class="boton card-image rojo">Guardar</button>
+                    <div class="info-botones">
+                        <button class="boton card-image">
+                            <img src="./img/iconos/descarga.png" alt="descarga" width="22px" />
+                        </button>
+                        <button class="boton card-image">
+                            <img src="./img/iconos/compartir.png" alt="compartir" width="22px" />
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="extra-info">
+                <div class="perfil-info">
+                    <img class="imagen-perfil" src="./img/iconos/usuario.png" alt="usuario" />
+                    <p>Vianey Villegas</p>
+                </div>
+                <div class="reacciones">
+                    <img class="imagen-reaccion" src="./img/iconos/feliz.png" alt="feliz" />
+                    <img class="imagen-reaccion" src="./img/iconos/encantar.png" alt="encantar" />
+                    <img class="imagen-reaccion" src="./img/iconos/sorprendido.png" alt="sorprendido" />
+                    <p>287</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</main>
 </body>
 </html>
